@@ -24,10 +24,16 @@ function App() {
       <div className="section__margin">
         <Article />
       </div>
-      <Possibility />
-      <Cta />
-      <Blog />
-      <Footer />
+      <div className="section__padding2">
+        <Possibility />
+      </div>
+      <div className="section__margin">
+        <Cta />
+      </div>
+      {/* <Blog /> */}
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
